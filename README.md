@@ -29,10 +29,10 @@ McGraw-Hill".](https://books.google.com/books/about/Artificial_Intelligence.html
 The workflow with this interactive program is as follows: 
 
 1. Determine the topology of the three-layer perceptron, and other
-hyper-parameters such as the learning rate and the number of training
-epochs.
+   hyper-parameters such as the learning rate and the number of training
+   epochs.
 
-![Network Topology](pics/Capture-8.png)
+   ![Network Topology](pics/Capture-8.png)
 
 2. Use the pattern editor to create the "training data", i.e., the "MNIST"-like one- or two-dimensional patterns that the perceptron shall recognize.
 
