@@ -1,13 +1,14 @@
-## A Simple Three-Layer Perceptron for MNIST-like Pattern Recognition
-   in Modula II with Pattern Editor, Backpropagation Learning, and
-   Loss Function Visualization
+## A Simple Three-Layer Perceptron for MNIST-like Pattern Recognition in Modula-2
 
-This was developed in January 1994 using TopSpeed Modula II Version
+### A Modula-2 implementation featuring an interactive Pattern
+   Editor, Backpropagation Learning, and Loss Function Visualization
+
+This was developed in January 1994 using TopSpeed Modula-2 Version
 1.17 for DOS (text mode and VGA graphics).
 
-![TopSpeed Modula II a](pics/Capture-1.png)
+![TopSpeed Modula-2 a](pics/Capture-1.png)
 
-![TopSpeed Modula II b](pics/Capture-2.png)
+![TopSpeed Modula-2 b](pics/Capture-2.png)
 
 To run [the program](m2/NEURONAL.EXE), you can [download
 DOSbox.](https://www.dosbox.com/download.php?main=1)
@@ -78,8 +79,8 @@ epochs.
 
 ### Source & Executable 
 
-You can find a [DOS executable](m2\NEURONAL.EXE) as well as the
-TopSpeed Modula II source code [here](m2\NEURONAL.MOD).
+You can find a [DOS executable](m2/NEURONAL.EXE) as well as the
+TopSpeed Modula-2 source code [here](m2/NEURONAL.MOD).
 
 Enjoy! 
 
