@@ -35,9 +35,9 @@ The workflow with this interactive program is as follows:
    ![Network Topology](pics/Capture-8.png)
 
 2. Use the pattern editor to create the "training data", i.e., the
-   "MNIST"-like one- or two- dimensional patterns that the perceptron
-   shall learn recognize. Use the keypad number keys (`4`, `6`, `8`,
-   `2`) for cursor movement, and the `5` to toggle a bit in the
+   "MNIST"-like one- or two-dimensional patterns that the perceptron
+   shall learn to recognize. Use the keypad number keys (`4`, `6`,
+   `8`, `2`) for cursor movement, and the `5` to toggle a bit in the
    pattern.  Use `+` and `-` to switch between patterns, or completely
    clear the current pattern with the `l` key:
 
@@ -47,31 +47,36 @@ The workflow with this interactive program is as follows:
 
 4. With the patterns (= training data) specified, start the
    backpropagation learning process by leaving the editor with the `e`
-   key. The learning process starts, and the progress and convergence
-   is visualized - the loss function for each pattern is shown
+   key.
+
+   The learning process starts, and the progress and convergence is
+   visualized - the loss function for each pattern is shown
    graphically epoch by epoch. Usually, it converges quickly for each
    pattern; i.e., 100 epochs are typically more than enough with a
-   learning rate of ~1.  The graphs require a VGA graphics card
-   (DOSbox emulates it):
+   learning rate of ~1. The graphs require a VGA graphics card (DOSbox
+   emulates it):
 
    ![Loss Function](pics/Capture-11.png)
 
 6. With the three-layer perceptron fully trained, we can now use it
-   for inference.  After training for the requested number of epochs,
+   for inference. After training for the requested number of epochs,
    the program returns to the pattern editor.
 
    We can now recall the individual training patterns and send them to
    the perceptron with the `s` key; the editor then shows the ground
    truth training label as well as the output computed by the network
-   und `Netz:`. This simply shows the levels of the output perceptrons
-   binarized via a > 0.5 threshold for `on` vs. `off`. Compare the
-   `Netz:` classification result with the `--->` training label. If
-   the net was trained successfully, it should match for each pattern
-   (change patterns via `+` and `-` and repeatedly use `s`).
+   under `Netz:`. This simply shows the levels of the output
+   perceptrons binarized via a `> 0.5` threshold for `on`
+   vs. `off`. Compare the `Netz:` classification result with the
+   `--->` training label. If the net was trained successfully, the
+   training and computed labels should match for each pattern. Toggle
+   through the different patterns with the `+` and `-` keys, and
+   repeatedly send them to the network via `s`.
    
    Check the predefined patterns for correct classification, and also
-   modify them a bit (i.e., change them with with the editor and feed
-   the modified patterns into the perceptron using the `s` key).
+   modify them a bit (or drastically; i.e., change them with the
+   editor and feed the modified patterns into the perceptron using the 
+   `s` key).
 
    Sometimes, the perceptron learned to focus on a few characterstic
    "bits" in the training patterns; it is interesting to remove as
