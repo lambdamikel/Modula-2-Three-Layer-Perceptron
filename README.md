@@ -9,6 +9,9 @@ This was developed in January 1994 using TopSpeed Modula II Version
 
 ![TopSpeed Modula II b](pics/Capture-2.png)
 
+To run [the program](m2/NEURONAL.EXE), you can [download
+DOSbox.](https://www.dosbox.com/download.php?main=1)
+
 ### Background
 
 At that time, I was taking an introductory AI class at the University
@@ -33,9 +36,9 @@ epochs.
 
 2. Use the pattern editor to create the "training data", i.e., the "MNIST"-like one- or two-dimensional patterns that the perceptron shall recognize.
 
-![Training Data Editor 1](pics/Capture-9.png)
+   ![Training Data Editor 1](pics/Capture-9.png)
 
-![Training Data Editor 2](pics/Capture-10.png)
+   ![Training Data Editor 2](pics/Capture-10.png)
 
 3. With the patterns specified, start the backpropagation learning
    process. The learning process is visualized; i.e., the program
@@ -44,7 +47,7 @@ epochs.
    pattern (100 epochs or so are enough with a learning rate of 1).
    will be visualized (VGA mode).
 
-![Loss Function](pics/Capture-11.png)
+   ![Loss Function](pics/Capture-11.png)
 
 4. With the three-layer perceptron being trained, we can now use it at
    inference time - after training for the requested number of epochs,
@@ -65,13 +68,13 @@ epochs.
    without affecting classification was (and still is) a selling point
    for neural networks.
 
-![Runtime Inference 1](pics/Capture-12.png)
+   ![Runtime Inference 1](pics/Capture-12.png)
 
-![Runtime Inference 2](pics/Capture-16.png)
+   ![Runtime Inference 2](pics/Capture-16.png)
 
-![Runtime Inference 3](pics/Capture-18.png)
+   ![Runtime Inference 3](pics/Capture-18.png)
 
-![Runtime Inference 4](pics/Capture-20.png)
+   ![Runtime Inference 4](pics/Capture-20.png)
 
 ### Source & Executable 
 
