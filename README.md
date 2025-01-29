@@ -53,9 +53,8 @@ The workflow with this interactive program is as follows:
 
    ![Loss Function](pics/Capture-11.png)
 
-6. With the three-layer perceptron fully trained, we can now use it for  
-   inference. After training for the requested number of epochs, 
-   the program returns to the pattern editor.
+6. With the three-layer perceptron fully trained, we can now use it for  inference.
+   After training for the requested number of epochs, the program returns to the pattern editor.
 
    We can now recall the individual training patterns and send them to the
    perceptron with the `s` key; the editor then shows 
