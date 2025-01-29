@@ -1,7 +1,6 @@
 ## A Simple Three-Layer Perceptron for MNIST-like Pattern Recognition in Modula-2
 
-### A Modula-2 implementation featuring an interactive Pattern
-   Editor, Backpropagation Learning, and Loss Function Visualization
+### A Modula-2 implementation featuring an interactive pattern editor, backpropagation learning, and loss function visualization
 
 This was developed in January 1994 using TopSpeed Modula-2 Version
 1.17 for DOS (text mode and VGA graphics).
