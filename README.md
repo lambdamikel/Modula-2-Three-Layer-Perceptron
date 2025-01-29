@@ -81,7 +81,7 @@ The workflow with this interactive program is as follows:
    Sometimes, the perceptron learned to focus on a few characterstic
    "bits" in the training patterns; it is interesting to remove as
    many bits as possible from the patterns without changing the
-   classification results. This "robustness" to noise and larges
+   classification results. This "robustness" to noise and large
    changes in the input pattern without affecting classification was
    (and still is) a selling point for perceptrons and/or neural
    networks, in general.
