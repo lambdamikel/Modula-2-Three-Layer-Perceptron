@@ -78,7 +78,7 @@ The workflow with this interactive program is as follows:
    editor and feed the modified patterns into the perceptron using the 
    `s` key).
 
-   Sometimes, the perceptron learned to focus on a few characterstic
+   Sometimes, the perceptron learned to focus on a few characteristic
    "bits" in the training patterns; it is interesting to remove as
    many bits as possible from the patterns without changing the
    classification results. This "robustness" to noise and large
